@@ -1,6 +1,6 @@
 package chapter01;
 
-public class PrimeDetect2 {
+public class PrimeDetect03 {
 	
 	public static void main(String[] args) {
 

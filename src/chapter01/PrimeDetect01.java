@@ -2,7 +2,7 @@ package chapter01;
 
 import java.util.Scanner;
 
-public class PrimeDetect {
+public class PrimeDetect01 {
 
 	public static void main(String[] args) {
 
