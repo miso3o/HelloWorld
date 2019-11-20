@@ -1,6 +1,8 @@
-package chapter03;
+package miso3o.kiss.paint.point;
 
-public class Point {
+import miso3o.kiss.paint.i.Drawable;
+
+public class Point implements Drawable{
 	private int x;
 	private int y;
 	
@@ -36,6 +38,14 @@ public class Point {
 			System.out.println("점[" + x + ", " + y + "]을 지웠습니다.");
 		}
 	}
+	
+	
+	@Override
+	public void draw()
+	{
+		show();
+	}
+	
 	
 //	public void disapear() {
 //		System.out.println("점[" + x + ", " + y + "]을 지웠습니다.");

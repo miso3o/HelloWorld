@@ -1,7 +1,11 @@
-package chapter03;
+package miso3o.kiss.paint.point;
 
 public class ColorPoint extends Point {
 
+	private String color;
+	
+	public ColorPoint() {}
+	
 	public String getColor() {
 		return color;
 	}
@@ -9,11 +13,16 @@ public class ColorPoint extends Point {
 	public void setColor(String color) {
 		this.color = color;
 	}
-
-	private String color;
 	
+	public ColorPoint(int x, int y, String color)
+	{
+		setX(x);
+		setY(y);
+		this.color = color;
+	}
+		
 	@Override
-	public void show()
+	public void draw()
 	{
 		System.out.println("점[" + getX() + ", " + getY() + ", color = " + color + "]");
 	}
