@@ -13,7 +13,7 @@ public class StringTest01 {
 	// "Hello"에서 "를 출력하고 싶은 경우 Escape 문자 \를 사용해야 한다.
 	System.out.println("\"Hello\"");
 	
-	// '를 출력하고 싶은 경우
-	
+	// '를 출력하고 싶은 경우 Escape 문자 \를 사용해야 한다.
+	System.out.println('\'');
 	}
 }
